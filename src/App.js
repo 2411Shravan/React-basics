@@ -1,16 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
-import BarChart from './components/Graphical'
-
+import {Home} from './pages'
+import {Navbar} from './containers'
+import {Createpost} from './containers'
+import {UserContextProvider} from './contexts/user'
 
 function App() {
   return (
-    <div>
-      
-      
-        <BarChart/>
-      
+    <UserContextProvider>
+    <div className="app">
+      <Home/>
     </div>
+    </UserContextProvider>
   );
 }
 
