@@ -1,0 +1,52 @@
+.createpost{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:25px 35px;
+}
+.createPostImage > input{
+    display:none;
+}
+
+#image-preview{
+    display:none;
+    margin:6px 6px;
+    height:120px;
+    width:200px;
+    
+}
+
+.createpostTextarea{
+    border:none;
+    width:100%;
+    outline:none;
+    font-size:15px;
+    margin-top:15px;
+    font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.loggedIn{
+    background: white;
+    width:100%;
+    max-width:450px;
+    border-radius:4px;
+    padding:12px 16px;
+}
+
+.have-both{
+    display:flex;
+    justify-content:space-between;
+}
+.createPostUpload{
+    border:none;
+    
+    cursor:pointer;
+   
+    border-radius: 5px;
+}
+
